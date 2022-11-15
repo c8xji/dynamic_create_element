@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.body {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgb(18, 18, 18);
+}
+
+.info_block {
+  width: 98%;
+  height: 25%;
+}
+
+.bio_pic {
+  width: 30%;
+  height: 100%;
+}
