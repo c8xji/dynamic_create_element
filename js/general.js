@@ -11,17 +11,17 @@ const bio_info = document.createElement("div");
 bio_pic.classList.add("bio_pic");
 bio_info.classList.add("bio_info");
 
-//const hr = document.createElement("");
-
 
 header.appendChild(bio_pic);
 header.appendChild(bio_info);
-//header.appendChild(hr);
+
+const img_container = document.createElement("div");
+img_container.classList.add("img_container");
+bio_pic.appendChild(img_container);
 
 const bio_img = '<img src=./images/bio_pic.jpeg>';
-//bio_img.classList.add("bio_img");
 
-bio_pic.innerHTML = bio_img;
+img_container.innerHTML = bio_img;
 
 const info_title = document.createElement("div");
 const info_data = document.createElement("div");
